@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* body header {
+  width: 100%;
+  background: black;
+  color: white;
+}
+
+* body header .description {
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  -webkit-transform: translateY(15px);
+          transform: translateY(15px);
+  opacity: 0.9;
+}
+
+* body header .portrait {
+  width: 70%;
+  margin: 0 auto;
+}
+
+* body header .portrait .img-me {
+  width: 100%;
+}
+
+* body header .portrait h2 {
+  margin: 10px 0 0 20px;
+}
+
+* body header .portrait p {
+  color: orangered;
+  font-weight: 540;
+  padding: 5px 0 5px 20px;
+}
+
+* body header .portrait p span {
+  color: white;
+}
+
+* body nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+* body nav ul li {
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+* body nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+* body footer {
+  background: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+* body footer ul li {
+  display: inline;
+  font-size: 0.8rem;
+}
+
+* body footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+* body footer p {
+  color: white;
+  font-size: 0.7rem;
+}
+/*# sourceMappingURL=main.css.map */
